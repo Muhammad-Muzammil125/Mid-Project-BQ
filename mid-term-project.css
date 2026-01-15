@@ -1,0 +1,347 @@
+/* universal css start */
+.container{
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F9FAFB;
+}
+/* universal css end */
+
+
+/* Header start */
+.main-header{
+    background-color:#030659;
+
+}
+.header-row{
+    display: flex;
+    align-items: center;
+}
+.img-column{
+    width: 20%;
+}
+.img-column .logo{
+    width: 65px;
+}
+.img-column{
+    margin: 6px 0;
+    margin-left: 80px;
+}
+
+.nav-area{
+    width: 1000px;
+}
+.nav-area .nav-list{
+    display: flex;
+    list-style: none;
+    margin-left: -200px;
+    justify-content: center;
+}
+.list-item {
+    margin: 0 25px;
+    font-size: 20px;
+}
+#span{
+    
+    font-weight: bold;
+}
+.header-link{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+/* Header End */
+
+
+.banner-division{
+    display: flex;
+    flex-direction: row;
+}
+.banner-column{
+    padding: 45px 0 10px 35px;
+    width: 50%;
+}
+.banner-column h1{
+    font-family: arial;
+    line-height: 45px;
+    font-size: 49px;
+    color: #002776;
+    margin-bottom: 28px;
+
+}
+.banner-column h1 span{
+    color: #002faa;
+    font-size: 44px;
+}
+.banner-column p{
+    font-family: arial;
+    font-size: 15px;
+    color: #030659;
+}
+.banner-button{
+    border-radius: 17px;
+    width: 15%;
+    text-align: center;
+    background-color: #002776;
+    text-decoration: none;
+    padding: 10px;
+}
+.banner-button:hover{
+    background-color: #2c32e0;
+    
+
+}
+.buynow{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: arial;
+}
+
+
+
+.banner-image{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.banner-image img{
+    width: 689px;
+    margin-right: 187px;
+    margin-top: 50px;
+}
+
+
+.categories-sec .category-row{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 140px;
+    margin-bottom: 140px;
+
+    
+}
+.categories-sec .category-col{
+    padding: 10px;
+    width: 33%;
+}
+.categories-sec .category-col .wrapper{
+    background: #FFF;
+    border: 1px solid pink;
+    border-radius: 20px;
+    padding: 0 0 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+.categories-sec .category-col .wrapper:hover{
+    background: linear-gradient(#030659 , #002776);
+
+}
+.categories-sec .wrapper .category-heading{
+    font-size: 24px;
+    font-weight: 400;
+    color:#002776;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.categories-sec .wrapper:hover .category-heading{
+    color: #FFF;
+}
+.categories-sec .category-col .wrapper img{
+    margin-top: -40px;
+    width: 200px;
+    border: 1px solid #adadf8;
+    border-radius: 30px;
+}
+
+
+.banner2-division{
+    background-color: #2c32e0;
+    padding: 50px;
+    padding-top: 35px;
+}
+.banner2-column{
+    margin-left: 60px;
+}
+.banner2-column h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    width: 700px;
+    margin-bottom: 25px;
+    color: rgb(172, 242, 255);
+}
+.banner2-column h1 span{
+    color:white;
+}
+.banner2-column p{
+    width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: white;
+}
+.banner2-column .buynow{
+    border-radius: 17px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#030659;
+    padding: 15px 35px;
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.banner2-column .buynow:hover{
+    background-color: rgb(54, 101, 255);
+
+}
+.banner2-image{
+    width: 327px;
+    height: 285px;
+    margin-left: 887px;
+    margin-top: -140px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+
+
+
+
+.selection-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #FFF;
+    padding-top: 30px;
+    margin-bottom: 60px;
+
+}
+.selection-card {
+    width: 23%;
+    padding: 15px;
+    margin: 10px 33px 10px 13px;
+    background-color: rgba(244, 246, 255, 1);
+    border-radius: 20px;    
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.selection-card .wrapper img{
+    border: 1px solid #adadf8;
+    width: 200px;
+    margin-left: 18%;
+    border-radius: 30px;
+}
+.wrapper-img3{
+    width: 260px;
+    margin-left: 8%;
+    border-radius: 30px;
+    border: 1px solid #adadf8;
+    margin-bottom: 32px;
+}
+.selection-name{
+    font-size: 24px;
+    color: rgba(44, 61, 95, 1);
+    font-weight: 500;
+    font-family: arial;
+}
+.selection-features{
+    font-size: 16px;
+    color: rgba(44, 61, 95, 1);
+    font-weight: 400;
+    font-family: arial;
+}
+.selection-price{
+    font-size: 24px;
+    color: #2c32e0;
+    font-weight: 600;
+    font-family: arial;
+}
+.selection-btn{
+    border-radius: 20px;
+    width: 90%;
+    background-color: #2c32e0;
+    color: rgba(255, 255, 255, 1);
+    height: 57px;
+    font-family: arial;
+    font-weight: 500;
+    border: 2px;
+
+}
+.selection-card:hover{
+    border: 4px solid #2c32e0;
+    width: 27%;
+    transition: 1.0s;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.banner3-division{
+    background-color: #2c32e0;
+    padding: 50px;
+    padding-top: 35px;
+}
+.banner3-column{
+    display: flex;
+    margin-left: 60px;
+    flex-direction: column;
+    align-items: center;
+}
+.banner3-column h1{
+    line-height: 80px;
+    margin-top: 50px;
+}
+.banner3-column h1 .span2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    color: rgb(172, 242, 255);
+}
+.banner3-column h1 .span1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 110px;
+
+}
+.banner3-column .buynow{
+    border-radius: 17px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#030659;
+    padding: 15px 35px;
+    font-size: 12px;
+    display: inline-block;
+    margin-top: -13px;
+}
+.banner3-column .buynow:hover{
+    background-color: rgb(54, 101, 255);
+
+}
+.banner3-image{
+    width: 101%;
+    display: flex;
+    justify-content: center;
+}
+.banner3-image img{
+    width: 300px;
+    margin: 30px;
+    border: 5px solid white;
+    border-radius: 66px;
+
+}

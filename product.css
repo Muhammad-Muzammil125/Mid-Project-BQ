@@ -1,0 +1,86 @@
+.main-header{
+    background-color:#030659;
+
+}
+.header-row{
+    display: flex;
+    align-items: center;
+}
+.img-column{
+    width: 20%;
+}
+.img-column .logo{
+    width: 65px;
+}
+.img-column{
+    margin: 6px 0;
+    margin-left: 80px;
+}
+
+.nav-area{
+    width: 1000px;
+}
+.nav-area .nav-list{
+    display: flex;
+    list-style: none;
+    margin-left: -200px;
+    justify-content: center;
+}
+.list-item {
+    margin: 0 25px;
+    font-size: 20px;
+}
+#span{
+    
+    font-weight: bold;
+}
+.header-link{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+
+.product{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: 5px solid #2c32e0;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+.product-img{
+
+}
+.product-img img{
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 7px 2px 10px;
+}
+.product-name{
+
+    line-height: 15px;
+}
+.product-name h3{
+    font-size: 50px;
+    font-family: arial;
+    color: #030659;
+}
+.product-name p{
+    font-size: 20px;
+    font-family: arial;
+    color: #030659;
+}
+.product-name button{
+    border-radius: 17px;
+    color: white;
+    background-color: #030659;
+    padding: 10px 30px;
+}
+.product-name button:hover{
+    background-color: #2c32e0;
+}
